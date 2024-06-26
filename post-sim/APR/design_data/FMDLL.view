@@ -1,0 +1,28 @@
+# Version:1.0 MMMC View Definition File
+# Do Not Remove Above Line
+
+# We only need to do traditional timing analysis to MMMC.
+
+## ============= create library set ============= ## 
+# Source your own path
+create_library_set -name lib_max -timing {/usr/cadtool/ee5216/CBDK_TSMC90GUTM_Arm_f1.0/CIC/SOCE/lib/slow.lib} 
+create_library_set -name lib_min -timing {/usr/cadtool/ee5216/CBDK_TSMC90GUTM_Arm_f1.0/CIC/SOCE/lib/fast.lib} 
+#create_library_set -name lib_max -timing {/home/m110/m110061576/process/CBDK_TSMC018_Arm_f1.0/CIC/SynopsysDC/lib/slow.lib} 
+#create_library_set -name lib_min -timing {/home/m110/m110061576/process/CBDK_TSMC018_Arm_f1.0/CIC/SynopsysDC/lib/fast.lib} 
+
+
+## ============= read sdc file ============= ## 
+create_constraint_mode -name func_mode -sdc_files {../design_data/FMDLL_syn.sdc}
+
+create_delay_corner -name Delay_corner_max -library_set {lib_max}
+create_delay_corner -name Delay_corner_min -library_set {lib_min}
+
+## ============= create analysis view ============= ## 
+create_analysis_view -name func_mode_max -constraint_mode {func_mode} -delay_corner {Delay_corner_max}
+create_analysis_view -name func_mode_min -constraint_mode {func_mode} -delay_corner {Delay_corner_min}
+
+## ============= set analysis view ============= ## 
+set_analysis_view -setup {func_mode_max} -hold {func_mode_min}
+
+
+

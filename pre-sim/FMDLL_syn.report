@@ -1,0 +1,451 @@
+ 
+****************************************
+Report : area
+Design : FMDLL
+Version: R-2020.09-SP5
+Date   : Tue May  7 09:55:00 2024
+****************************************
+
+Information: Updating design information... (UID-85)
+Warning: A non-unate path in clock network for clock 'clk_ext'
+ from pin 'U2/U26/Y' is detected. (TIM-052)
+Information: Timing loop detected. (OPT-150)
+	U2/U18/A U2/U18/Y U2/U26/A0 U2/U26/Y U2/D1/DDC1/A0/A U2/D1/DDC1/A0/Y U2/D1/DDC1/B0/A U2/D1/DDC1/B0/Y U2/D1/DDC1/loop3_0__C1/A U2/D1/DDC1/loop3_0__C1/Y U2/D1/DDC1/B1/A U2/D1/DDC1/B1/Y U2/D1/DDC2/A0/A U2/D1/DDC2/A0/Y U2/D1/DDC2/B0/A U2/D1/DDC2/B0/Y U2/D1/DDC2/loop3_0__C1/A U2/D1/DDC2/loop3_0__C1/Y U2/D1/DDC2/B1/A U2/D1/DDC2/B1/Y U2/D1/DDC3/A0/A U2/D1/DDC3/A0/Y U2/D1/DDC3/B0/A U2/D1/DDC3/B0/Y U2/D1/DDC3/loop3_0__C1/A U2/D1/DDC3/loop3_0__C1/Y U2/D1/DDC3/B1/A U2/D1/DDC3/B1/Y U2/D1/DDC4/A0/A U2/D1/DDC4/A0/Y U2/D1/DDC4/B0/A U2/D1/DDC4/B0/Y U2/D1/DDC4/loop3_0__C1/A U2/D1/DDC4/loop3_0__C1/Y U2/D1/DDC4/B1/A U2/D1/DDC4/B1/Y U2/D1/DDC5/A0/A U2/D1/DDC5/A0/Y U2/D1/DDC5/B0/A U2/D1/DDC5/B0/Y U2/D1/DDC5/loop3_0__C1/A U2/D1/DDC5/loop3_0__C1/Y U2/D1/DDC5/B1/A U2/D1/DDC5/B1/Y U2/D1/DDC6/A0/A U2/D1/DDC6/A0/Y U2/D1/DDC6/B0/A U2/D1/DDC6/B0/Y U2/D1/DDC6/loop3_0__C1/A U2/D1/DDC6/loop3_0__C1/Y U2/D1/DDC6/B1/A U2/D1/DDC6/B1/Y U2/D1/DDC7/A0/A U2/D1/DDC7/A0/Y U2/D1/DDC7/B0/A U2/D1/DDC7/B0/Y U2/D1/DDC7/loop3_0__C1/A U2/D1/DDC7/loop3_0__C1/Y U2/D1/DDC7/B1/A U2/D1/DDC7/B1/Y U2/D1/DDC8/A0/A U2/D1/DDC8/A0/Y U2/D1/DDC8/B0/A U2/D1/DDC8/B0/Y U2/D1/DDC8/loop3_0__C1/A U2/D1/DDC8/loop3_0__C1/Y U2/D1/DDC8/B1/A U2/D1/DDC8/B1/Y U2/D1/DDC9/A0/A U2/D1/DDC9/A0/Y U2/D1/DDC9/B0/A U2/D1/DDC9/B0/Y U2/D1/DDC9/loop3_0__C1/A U2/D1/DDC9/loop3_0__C1/Y U2/D1/DDC9/B1/A U2/D1/DDC9/B1/Y U2/D1/DDC10/A0/A U2/D1/DDC10/A0/Y U2/D1/DDC10/B0/A U2/D1/DDC10/B0/Y U2/D1/DDC10/loop3_0__C1/A U2/D1/DDC10/loop3_0__C1/Y U2/D1/DDC10/B1/A U2/D1/DDC10/B1/Y U2/D1/DDC11/A0/A U2/D1/DDC11/A0/Y U2/D1/DDC11/B0/A U2/D1/DDC11/B0/Y U2/D1/DDC11/loop3_0__C1/A U2/D1/DDC11/loop3_0__C1/Y U2/D1/DDC11/B1/A U2/D1/DDC11/B1/Y U2/D1/DDC12/A0/A U2/D1/DDC12/A0/Y U2/D1/DDC12/B0/A U2/D1/DDC12/B0/Y U2/D1/DDC12/loop3_0__C1/A U2/D1/DDC12/loop3_0__C1/Y U2/D1/DDC12/B1/A U2/D1/DDC12/B1/Y U2/D1/DDC13/A0/A U2/D1/DDC13/A0/Y U2/D1/DDC13/B0/A U2/D1/DDC13/B0/Y U2/D1/DDC13/loop3_0__C1/A U2/D1/DDC13/loop3_0__C1/Y U2/D1/DDC13/B1/A U2/D1/DDC13/B1/Y U2/D1/DDC14/A0/A U2/D1/DDC14/A0/Y U2/D1/DDC14/B0/A U2/D1/DDC14/B0/Y U2/D1/DDC14/loop3_0__C1/A U2/D1/DDC14/loop3_0__C1/Y U2/D1/DDC14/B1/A U2/D1/DDC14/B1/Y U2/D1/DDC15/A0/A U2/D1/DDC15/A0/Y U2/D1/DDC15/B0/A U2/D1/DDC15/B0/Y U2/D1/DDC15/loop3_0__C1/A U2/D1/DDC15/loop3_0__C1/Y U2/D1/DDC15/B1/A U2/D1/DDC15/B1/Y U2/D1/DDC16/A0/A U2/D1/DDC16/A0/Y U2/D1/DDC16/B0/A U2/D1/DDC16/B0/Y U2/D1/DDC16/loop3_0__C1/A U2/D1/DDC16/loop3_0__C1/Y U2/D1/DDC16/B1/A U2/D1/DDC16/B1/Y U2/D1/DDC16/A3/A U2/D1/DDC16/A3/Y U2/D1/DDC15/A3/A U2/D1/DDC15/A3/Y U2/D1/DDC14/A3/A U2/D1/DDC14/A3/Y U2/D1/DDC13/A3/A U2/D1/DDC13/A3/Y U2/D1/DDC12/A3/A U2/D1/DDC12/A3/Y U2/D1/DDC11/A3/A U2/D1/DDC11/A3/Y U2/D1/DDC10/A3/A U2/D1/DDC10/A3/Y U2/D1/DDC9/A3/A U2/D1/DDC9/A3/Y U2/D1/DDC8/A3/A U2/D1/DDC8/A3/Y U2/D1/DDC7/A3/A U2/D1/DDC7/A3/Y U2/D1/DDC6/A3/A U2/D1/DDC6/A3/Y U2/D1/DDC5/A3/A U2/D1/DDC5/A3/Y U2/D1/DDC4/A3/A U2/D1/DDC4/A3/Y U2/D1/DDC3/A3/A U2/D1/DDC3/A3/Y U2/D1/DDC2/A3/A U2/D1/DDC2/A3/Y U2/D1/DDC1/A3/A U2/D1/DDC1/A3/Y U2/D2/FDE1/A0/A U2/D2/FDE1/A0/Y U2/D2/FDE2/A0/A U2/D2/FDE2/A0/Y U2/D2/FDE3/A0/A U2/D2/FDE3/A0/Y U2/D2/FDE4/A0/A U2/D2/FDE4/A0/Y U2/D2/FDE5/A0/A U2/D2/FDE5/A0/Y U2/D2/FDE6/A0/A U2/D2/FDE6/A0/Y U2/D2/FDE7/A0/A U2/D2/FDE7/A0/Y U2/D2/FDE8/A0/A U2/D2/FDE8/A0/Y U2/D2/FDE8/A3/A U2/D2/FDE8/A3/Y U2/D2/FDE7/A3/A U2/D2/FDE7/A3/Y U2/D2/FDE6/A3/A U2/D2/FDE6/A3/Y U2/D2/FDE5/A3/A U2/D2/FDE5/A3/Y U2/D2/FDE4/A3/A U2/D2/FDE4/A3/Y U2/D2/FDE3/A3/A U2/D2/FDE3/A3/Y U2/D2/FDE2/A3/A U2/D2/FDE2/A3/Y U2/D2/FDE1/A3/A U2/D2/FDE1/A3/Y U2/D3/FDE1/A0/A U2/D3/FDE1/A0/Y U2/D3/FDE2/A0/A U2/D3/FDE2/A0/Y U2/D3/FDE3/A0/A U2/D3/FDE3/A0/Y U2/D3/FDE4/A0/A U2/D3/FDE4/A0/Y U2/D3/FDE5/A0/A U2/D3/FDE5/A0/Y U2/D3/FDE6/A0/A U2/D3/FDE6/A0/Y U2/D3/FDE7/A0/A U2/D3/FDE7/A0/Y U2/D3/FDE8/A0/A U2/D3/FDE8/A0/Y U2/D3/FDE8/A3/A U2/D3/FDE8/A3/Y U2/D3/FDE7/A3/A U2/D3/FDE7/A3/Y U2/D3/FDE6/A3/A U2/D3/FDE6/A3/Y U2/D3/FDE5/A3/A U2/D3/FDE5/A3/Y U2/D3/FDE4/A3/A U2/D3/FDE4/A3/Y U2/D3/FDE3/A3/A U2/D3/FDE3/A3/Y U2/D3/FDE2/A3/A U2/D3/FDE2/A3/Y U2/D3/FDE1/A3/A U2/D3/FDE1/A3/Y U2/U2/A U2/U2/Y U2/glitch_eliminate_0__G0/A U2/glitch_eliminate_0__G0/Y U2/glitch_eliminate_1__G0/A U2/glitch_eliminate_1__G0/Y U2/glitch_eliminate_2__G0/A U2/glitch_eliminate_2__G0/Y U2/glitch_eliminate_3__G0/A U2/glitch_eliminate_3__G0/Y U2/glitch_eliminate_4__G0/A U2/glitch_eliminate_4__G0/Y U2/glitch_eliminate_5__G0/A U2/glitch_eliminate_5__G0/Y U2/glitch_eliminate_6__G0/A U2/glitch_eliminate_6__G0/Y U2/glitch_eliminate_7__G0/A U2/glitch_eliminate_7__G0/Y U2/glitch_eliminate_8__G0/A U2/glitch_eliminate_8__G0/Y U2/glitch_eliminate_9__G0/A U2/glitch_eliminate_9__G0/Y U2/glitch_eliminate_10__G0/A U2/glitch_eliminate_10__G0/Y U2/glitch_eliminate_11__G0/A U2/glitch_eliminate_11__G0/Y U2/glitch_eliminate_12__G0/A U2/glitch_eliminate_12__G0/Y U2/glitch_eliminate_13__G0/A U2/glitch_eliminate_13__G0/Y U2/glitch_eliminate_14__G0/A U2/glitch_eliminate_14__G0/Y U2/glitch_eliminate_15__G0/A U2/glitch_eliminate_15__G0/Y U2/glitch_eliminate_16__G0/A U2/glitch_eliminate_16__G0/Y U2/glitch_eliminate_17__G0/A U2/glitch_eliminate_17__G0/Y U2/glitch_eliminate_18__G0/A U2/glitch_eliminate_18__G0/Y U2/glitch_eliminate_19__G0/A U2/glitch_eliminate_19__G0/Y U2/glitch_eliminate_20__G0/A U2/glitch_eliminate_20__G0/Y U2/glitch_eliminate_21__G0/A U2/glitch_eliminate_21__G0/Y U2/glitch_eliminate_22__G0/A U2/glitch_eliminate_22__G0/Y U2/glitch_eliminate_23__G0/A U2/glitch_eliminate_23__G0/Y U2/glitch_eliminate_24__G0/A U2/glitch_eliminate_24__G0/Y U2/glitch_eliminate_25__G0/A U2/glitch_eliminate_25__G0/Y U2/glitch_eliminate_26__G0/A U2/glitch_eliminate_26__G0/Y U2/glitch_eliminate_27__G0/A U2/glitch_eliminate_27__G0/Y U2/glitch_eliminate_28__G0/A U2/glitch_eliminate_28__G0/Y U2/glitch_eliminate_29__G0/A U2/glitch_eliminate_29__G0/Y U2/glitch_eliminate_30__G0/A U2/glitch_eliminate_30__G0/Y U2/glitch_eliminate_31__G0/A U2/glitch_eliminate_31__G0/Y U2/glitch_eliminate_32__G0/A U2/glitch_eliminate_32__G0/Y U2/glitch_eliminate_33__G0/A U2/glitch_eliminate_33__G0/Y U2/glitch_eliminate_34__G0/A U2/glitch_eliminate_34__G0/Y U2/U27/AN U2/U27/Y 
+Information: Timing loop detected. (OPT-150)
+	U1/F2/U15/B U1/F2/U15/Y U1/F2/Sel_tmp_reg_1_/G U1/F2/Sel_tmp_reg_1_/Q 
+Warning: Disabling timing arc between pins 'A' and 'Y' on cell 'U2/U18'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'B' and 'Y' on cell 'U1/F2/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'D' and 'Y' on cell 'U1/F2/U15'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A0' and 'Y' on cell 'U6'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'A' and 'Y' on cell 'U0/P2/U14'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'B0' and 'Y' on cell 'U0/P1/DL1/U3'
+         to break a timing loop. (OPT-314)
+Warning: Disabling timing arc between pins 'B0' and 'Y' on cell 'U0/P1/DL2/U3'
+         to break a timing loop. (OPT-314)
+Automatic time-borrowing...
+Library(s) Used:
+
+    slow (File: /usr/cadtool/ee5216/CBDK_TSMC90GUTM_Arm_f1.0/CIC/SynopsysDC/db/slow.db)
+
+Number of ports:                          669
+Number of nets:                          1223
+Number of cells:                          628
+Number of combinational cells:            514
+Number of sequential cells:                39
+Number of macros/black boxes:               0
+Number of buf/inv:                        208
+Number of references:                       9
+
+Combinational area:               1711.785650
+Buf/Inv area:                      548.956817
+Noncombinational area:             812.145600
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                  2523.931250
+Total area:                 undefined
+1
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : FMDLL
+Version: R-2020.09-SP5
+Date   : Tue May  7 09:55:00 2024
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: U1/F2/Sel_tmp_reg_0_
+              (positive level-sensitive latch clocked by clk_ext')
+  Endpoint: U1/F2/Sel_tmp_reg_0_
+            (positive level-sensitive latch clocked by clk_ext')
+  Path Group: clk_ext
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk_ext' (rise edge)                              2.50       2.50
+  clock network delay (ideal)                             0.00       2.50
+  time given to startpoint                                2.12       4.62
+  U1/F2/Sel_tmp_reg_0_/D (TLATX4)                         0.00       4.62 r
+  U1/F2/Sel_tmp_reg_0_/Q (TLATX4)                         0.09       4.71 r
+  U1/F2/Sel[0] (Select_Logic)                             0.00       4.71 r
+  U1/Sel[0] (FMC)                                         0.00       4.71 r
+  U9/Y (OAI2BB1X2)                                        0.08       4.79 r
+  U2/clk_mid (DCDL)                                       0.00       4.79 r
+  U2/U26/Y (AOI21BX4)                                     0.07       4.87 r
+  U2/D1/clk_mid (CDL)                                     0.00       4.87 r
+  U2/D1/DDC1/I (DDC_15)                                   0.00       4.87 r
+  U2/D1/DDC1/A0/Y (NAND2X2)                               0.03       4.90 f
+  U2/D1/DDC1/B0/Y (BUFX2)                                 0.07       4.96 f
+  U2/D1/DDC1/loop3_0__C1/Y (BUFX2)                        0.07       5.03 f
+  U2/D1/DDC1/B1/Y (BUFX2)                                 0.08       5.11 f
+  U2/D1/DDC1/P1 (DDC_15)                                  0.00       5.11 f
+  U2/D1/DDC2/I (DDC_14)                                   0.00       5.11 f
+  U2/D1/DDC2/A0/Y (NAND2X2)                               0.03       5.14 r
+  U2/D1/DDC2/B0/Y (BUFX2)                                 0.05       5.19 r
+  U2/D1/DDC2/loop3_0__C1/Y (BUFX2)                        0.05       5.23 r
+  U2/D1/DDC2/B1/Y (BUFX2)                                 0.06       5.29 r
+  U2/D1/DDC2/P1 (DDC_14)                                  0.00       5.29 r
+  U2/D1/DDC3/I (DDC_13)                                   0.00       5.29 r
+  U2/D1/DDC3/A0/Y (NAND2X2)                               0.03       5.32 f
+  U2/D1/DDC3/B0/Y (BUFX2)                                 0.07       5.39 f
+  U2/D1/DDC3/loop3_0__C1/Y (BUFX2)                        0.07       5.46 f
+  U2/D1/DDC3/B1/Y (BUFX2)                                 0.08       5.54 f
+  U2/D1/DDC3/P1 (DDC_13)                                  0.00       5.54 f
+  U2/D1/DDC4/I (DDC_12)                                   0.00       5.54 f
+  U2/D1/DDC4/A0/Y (NAND2X2)                               0.03       5.56 r
+  U2/D1/DDC4/B0/Y (BUFX2)                                 0.05       5.61 r
+  U2/D1/DDC4/loop3_0__C1/Y (BUFX2)                        0.05       5.66 r
+  U2/D1/DDC4/B1/Y (BUFX2)                                 0.06       5.72 r
+  U2/D1/DDC4/P1 (DDC_12)                                  0.00       5.72 r
+  U2/D1/DDC5/I (DDC_11)                                   0.00       5.72 r
+  U2/D1/DDC5/A0/Y (NAND2X2)                               0.03       5.75 f
+  U2/D1/DDC5/B0/Y (BUFX2)                                 0.07       5.82 f
+  U2/D1/DDC5/loop3_0__C1/Y (BUFX2)                        0.07       5.89 f
+  U2/D1/DDC5/B1/Y (BUFX2)                                 0.08       5.96 f
+  U2/D1/DDC5/P1 (DDC_11)                                  0.00       5.96 f
+  U2/D1/DDC6/I (DDC_10)                                   0.00       5.96 f
+  U2/D1/DDC6/A0/Y (NAND2X2)                               0.03       5.99 r
+  U2/D1/DDC6/B0/Y (BUFX2)                                 0.05       6.04 r
+  U2/D1/DDC6/loop3_0__C1/Y (BUFX2)                        0.05       6.09 r
+  U2/D1/DDC6/B1/Y (BUFX2)                                 0.06       6.15 r
+  U2/D1/DDC6/P1 (DDC_10)                                  0.00       6.15 r
+  U2/D1/DDC7/I (DDC_9)                                    0.00       6.15 r
+  U2/D1/DDC7/A0/Y (NAND2X2)                               0.03       6.18 f
+  U2/D1/DDC7/B0/Y (BUFX2)                                 0.07       6.25 f
+  U2/D1/DDC7/loop3_0__C1/Y (BUFX2)                        0.07       6.31 f
+  U2/D1/DDC7/B1/Y (BUFX2)                                 0.08       6.39 f
+  U2/D1/DDC7/P1 (DDC_9)                                   0.00       6.39 f
+  U2/D1/DDC8/I (DDC_8)                                    0.00       6.39 f
+  U2/D1/DDC8/A0/Y (NAND2X2)                               0.03       6.42 r
+  U2/D1/DDC8/B0/Y (BUFX2)                                 0.05       6.47 r
+  U2/D1/DDC8/loop3_0__C1/Y (BUFX2)                        0.05       6.52 r
+  U2/D1/DDC8/B1/Y (BUFX2)                                 0.06       6.58 r
+  U2/D1/DDC8/P1 (DDC_8)                                   0.00       6.58 r
+  U2/D1/DDC9/I (DDC_7)                                    0.00       6.58 r
+  U2/D1/DDC9/A0/Y (NAND2X2)                               0.03       6.61 f
+  U2/D1/DDC9/B0/Y (BUFX2)                                 0.07       6.67 f
+  U2/D1/DDC9/loop3_0__C1/Y (BUFX2)                        0.07       6.74 f
+  U2/D1/DDC9/B1/Y (BUFX2)                                 0.08       6.82 f
+  U2/D1/DDC9/P1 (DDC_7)                                   0.00       6.82 f
+  U2/D1/DDC10/I (DDC_6)                                   0.00       6.82 f
+  U2/D1/DDC10/A0/Y (NAND2X2)                              0.03       6.85 r
+  U2/D1/DDC10/B0/Y (BUFX2)                                0.05       6.90 r
+  U2/D1/DDC10/loop3_0__C1/Y (BUFX2)                       0.05       6.94 r
+  U2/D1/DDC10/B1/Y (BUFX2)                                0.06       7.00 r
+  U2/D1/DDC10/P1 (DDC_6)                                  0.00       7.00 r
+  U2/D1/DDC11/I (DDC_5)                                   0.00       7.00 r
+  U2/D1/DDC11/A0/Y (NAND2X2)                              0.03       7.04 f
+  U2/D1/DDC11/B0/Y (BUFX2)                                0.07       7.10 f
+  U2/D1/DDC11/loop3_0__C1/Y (BUFX2)                       0.07       7.17 f
+  U2/D1/DDC11/B1/Y (BUFX2)                                0.08       7.25 f
+  U2/D1/DDC11/P1 (DDC_5)                                  0.00       7.25 f
+  U2/D1/DDC12/I (DDC_4)                                   0.00       7.25 f
+  U2/D1/DDC12/A0/Y (NAND2X2)                              0.03       7.28 r
+  U2/D1/DDC12/B0/Y (BUFX2)                                0.05       7.33 r
+  U2/D1/DDC12/loop3_0__C1/Y (BUFX2)                       0.05       7.37 r
+  U2/D1/DDC12/B1/Y (BUFX2)                                0.06       7.43 r
+  U2/D1/DDC12/P1 (DDC_4)                                  0.00       7.43 r
+  U2/D1/DDC13/I (DDC_3)                                   0.00       7.43 r
+  U2/D1/DDC13/A0/Y (NAND2X2)                              0.03       7.46 f
+  U2/D1/DDC13/B0/Y (BUFX2)                                0.07       7.53 f
+  U2/D1/DDC13/loop3_0__C1/Y (BUFX2)                       0.07       7.60 f
+  U2/D1/DDC13/B1/Y (BUFX2)                                0.08       7.68 f
+  U2/D1/DDC13/P1 (DDC_3)                                  0.00       7.68 f
+  U2/D1/DDC14/I (DDC_2)                                   0.00       7.68 f
+  U2/D1/DDC14/A0/Y (NAND2X2)                              0.03       7.71 r
+  U2/D1/DDC14/B0/Y (BUFX2)                                0.05       7.75 r
+  U2/D1/DDC14/loop3_0__C1/Y (BUFX2)                       0.05       7.80 r
+  U2/D1/DDC14/B1/Y (BUFX2)                                0.06       7.86 r
+  U2/D1/DDC14/P1 (DDC_2)                                  0.00       7.86 r
+  U2/D1/DDC15/I (DDC_1)                                   0.00       7.86 r
+  U2/D1/DDC15/A0/Y (NAND2X2)                              0.03       7.89 f
+  U2/D1/DDC15/B0/Y (BUFX2)                                0.07       7.96 f
+  U2/D1/DDC15/loop3_0__C1/Y (BUFX2)                       0.07       8.03 f
+  U2/D1/DDC15/B1/Y (BUFX2)                                0.08       8.10 f
+  U2/D1/DDC15/P1 (DDC_1)                                  0.00       8.10 f
+  U2/D1/DDC16/I (DDC_0)                                   0.00       8.10 f
+  U2/D1/DDC16/A0/Y (NAND2X2)                              0.03       8.13 r
+  U2/D1/DDC16/B0/Y (BUFX2)                                0.05       8.18 r
+  U2/D1/DDC16/loop3_0__C1/Y (BUFX2)                       0.05       8.23 r
+  U2/D1/DDC16/B1/Y (BUFX2)                                0.05       8.28 r
+  U2/D1/DDC16/P1 (DDC_0)                                  0.00       8.28 r
+  U2/D1/DDC16/P2 (DDC_0)                                  0.00       8.28 r
+  U2/D1/DDC16/A3/Y (NAND2X2)                              0.03       8.31 f
+  U2/D1/DDC16/O (DDC_0)                                   0.00       8.31 f
+  U2/D1/DDC15/P2 (DDC_1)                                  0.00       8.31 f
+  U2/D1/DDC15/A3/Y (NAND2X2)                              0.03       8.34 r
+  U2/D1/DDC15/O (DDC_1)                                   0.00       8.34 r
+  U2/D1/DDC14/P2 (DDC_2)                                  0.00       8.34 r
+  U2/D1/DDC14/A3/Y (NAND2X2)                              0.03       8.38 f
+  U2/D1/DDC14/O (DDC_2)                                   0.00       8.38 f
+  U2/D1/DDC13/P2 (DDC_3)                                  0.00       8.38 f
+  U2/D1/DDC13/A3/Y (NAND2X2)                              0.03       8.41 r
+  U2/D1/DDC13/O (DDC_3)                                   0.00       8.41 r
+  U2/D1/DDC12/P2 (DDC_4)                                  0.00       8.41 r
+  U2/D1/DDC12/A3/Y (NAND2X2)                              0.03       8.44 f
+  U2/D1/DDC12/O (DDC_4)                                   0.00       8.44 f
+  U2/D1/DDC11/P2 (DDC_5)                                  0.00       8.44 f
+  U2/D1/DDC11/A3/Y (NAND2X2)                              0.03       8.47 r
+  U2/D1/DDC11/O (DDC_5)                                   0.00       8.47 r
+  U2/D1/DDC10/P2 (DDC_6)                                  0.00       8.47 r
+  U2/D1/DDC10/A3/Y (NAND2X2)                              0.03       8.51 f
+  U2/D1/DDC10/O (DDC_6)                                   0.00       8.51 f
+  U2/D1/DDC9/P2 (DDC_7)                                   0.00       8.51 f
+  U2/D1/DDC9/A3/Y (NAND2X2)                               0.03       8.54 r
+  U2/D1/DDC9/O (DDC_7)                                    0.00       8.54 r
+  U2/D1/DDC8/P2 (DDC_8)                                   0.00       8.54 r
+  U2/D1/DDC8/A3/Y (NAND2X2)                               0.03       8.57 f
+  U2/D1/DDC8/O (DDC_8)                                    0.00       8.57 f
+  U2/D1/DDC7/P2 (DDC_9)                                   0.00       8.57 f
+  U2/D1/DDC7/A3/Y (NAND2X2)                               0.03       8.61 r
+  U2/D1/DDC7/O (DDC_9)                                    0.00       8.61 r
+  U2/D1/DDC6/P2 (DDC_10)                                  0.00       8.61 r
+  U2/D1/DDC6/A3/Y (NAND2X2)                               0.03       8.64 f
+  U2/D1/DDC6/O (DDC_10)                                   0.00       8.64 f
+  U2/D1/DDC5/P2 (DDC_11)                                  0.00       8.64 f
+  U2/D1/DDC5/A3/Y (NAND2X2)                               0.03       8.67 r
+  U2/D1/DDC5/O (DDC_11)                                   0.00       8.67 r
+  U2/D1/DDC4/P2 (DDC_12)                                  0.00       8.67 r
+  U2/D1/DDC4/A3/Y (NAND2X2)                               0.03       8.71 f
+  U2/D1/DDC4/O (DDC_12)                                   0.00       8.71 f
+  U2/D1/DDC3/P2 (DDC_13)                                  0.00       8.71 f
+  U2/D1/DDC3/A3/Y (NAND2X2)                               0.03       8.74 r
+  U2/D1/DDC3/O (DDC_13)                                   0.00       8.74 r
+  U2/D1/DDC2/P2 (DDC_14)                                  0.00       8.74 r
+  U2/D1/DDC2/A3/Y (NAND2X2)                               0.03       8.77 f
+  U2/D1/DDC2/O (DDC_14)                                   0.00       8.77 f
+  U2/D1/DDC1/P2 (DDC_15)                                  0.00       8.77 f
+  U2/D1/DDC1/A3/Y (NAND2X2)                               0.03       8.80 r
+  U2/D1/DDC1/O (DDC_15)                                   0.00       8.80 r
+  U2/D1/clk_coarse_out (CDL)                              0.00       8.80 r
+  U2/D2/clk_in (FDL_1)                                    0.00       8.80 r
+  U2/D2/FDE1/I (FDE_15)                                   0.00       8.80 r
+  U2/D2/FDE1/A0/Y (NAND2XL)                               0.07       8.87 f
+  U2/D2/FDE1/P1 (FDE_15)                                  0.00       8.87 f
+  U2/D2/FDE2/I (FDE_14)                                   0.00       8.87 f
+  U2/D2/FDE2/A0/Y (NAND2XL)                               0.06       8.93 r
+  U2/D2/FDE2/P1 (FDE_14)                                  0.00       8.93 r
+  U2/D2/FDE3/I (FDE_13)                                   0.00       8.93 r
+  U2/D2/FDE3/A0/Y (NAND2XL)                               0.08       9.01 f
+  U2/D2/FDE3/P1 (FDE_13)                                  0.00       9.01 f
+  U2/D2/FDE4/I (FDE_12)                                   0.00       9.01 f
+  U2/D2/FDE4/A0/Y (NAND2XL)                               0.06       9.07 r
+  U2/D2/FDE4/P1 (FDE_12)                                  0.00       9.07 r
+  U2/D2/FDE5/I (FDE_11)                                   0.00       9.07 r
+  U2/D2/FDE5/A0/Y (NAND2XL)                               0.08       9.14 f
+  U2/D2/FDE5/P1 (FDE_11)                                  0.00       9.14 f
+  U2/D2/FDE6/I (FDE_10)                                   0.00       9.14 f
+  U2/D2/FDE6/A0/Y (NAND2XL)                               0.06       9.20 r
+  U2/D2/FDE6/P1 (FDE_10)                                  0.00       9.20 r
+  U2/D2/FDE7/I (FDE_9)                                    0.00       9.20 r
+  U2/D2/FDE7/A0/Y (NAND2XL)                               0.07       9.28 f
+  U2/D2/FDE7/P1 (FDE_9)                                   0.00       9.28 f
+  U2/D2/FDE8/I (FDE_8)                                    0.00       9.28 f
+  U2/D2/FDE8/A0/Y (NAND2XL)                               0.05       9.33 r
+  U2/D2/FDE8/P1 (FDE_8)                                   0.00       9.33 r
+  U2/D2/FDE8/P2 (FDE_8)                                   0.00       9.33 r
+  U2/D2/FDE8/A3/Y (NAND2XL)                               0.05       9.38 f
+  U2/D2/FDE8/O (FDE_8)                                    0.00       9.38 f
+  U2/D2/FDE7/P2 (FDE_9)                                   0.00       9.38 f
+  U2/D2/FDE7/A3/Y (NAND2XL)                               0.04       9.42 r
+  U2/D2/FDE7/O (FDE_9)                                    0.00       9.42 r
+  U2/D2/FDE6/P2 (FDE_10)                                  0.00       9.42 r
+  U2/D2/FDE6/A3/Y (NAND2XL)                               0.05       9.47 f
+  U2/D2/FDE6/O (FDE_10)                                   0.00       9.47 f
+  U2/D2/FDE5/P2 (FDE_11)                                  0.00       9.47 f
+  U2/D2/FDE5/A3/Y (NAND2XL)                               0.04       9.51 r
+  U2/D2/FDE5/O (FDE_11)                                   0.00       9.51 r
+  U2/D2/FDE4/P2 (FDE_12)                                  0.00       9.51 r
+  U2/D2/FDE4/A3/Y (NAND2XL)                               0.05       9.57 f
+  U2/D2/FDE4/O (FDE_12)                                   0.00       9.57 f
+  U2/D2/FDE3/P2 (FDE_13)                                  0.00       9.57 f
+  U2/D2/FDE3/A3/Y (NAND2XL)                               0.04       9.61 r
+  U2/D2/FDE3/O (FDE_13)                                   0.00       9.61 r
+  U2/D2/FDE2/P2 (FDE_14)                                  0.00       9.61 r
+  U2/D2/FDE2/A3/Y (NAND2XL)                               0.05       9.66 f
+  U2/D2/FDE2/O (FDE_14)                                   0.00       9.66 f
+  U2/D2/FDE1/P2 (FDE_15)                                  0.00       9.66 f
+  U2/D2/FDE1/A3/Y (NAND2XL)                               0.05       9.71 r
+  U2/D2/FDE1/O (FDE_15)                                   0.00       9.71 r
+  U2/D2/clk_out (FDL_1)                                   0.00       9.71 r
+  U2/D3/clk_in (FDL_0)                                    0.00       9.71 r
+  U2/D3/FDE1/I (FDE_7)                                    0.00       9.71 r
+  U2/D3/FDE1/A0/Y (NAND2XL)                               0.07       9.78 f
+  U2/D3/FDE1/P1 (FDE_7)                                   0.00       9.78 f
+  U2/D3/FDE2/I (FDE_6)                                    0.00       9.78 f
+  U2/D3/FDE2/A0/Y (NAND2XL)                               0.06       9.84 r
+  U2/D3/FDE2/P1 (FDE_6)                                   0.00       9.84 r
+  U2/D3/FDE3/I (FDE_5)                                    0.00       9.84 r
+  U2/D3/FDE3/A0/Y (NAND2XL)                               0.08       9.92 f
+  U2/D3/FDE3/P1 (FDE_5)                                   0.00       9.92 f
+  U2/D3/FDE4/I (FDE_4)                                    0.00       9.92 f
+  U2/D3/FDE4/A0/Y (NAND2XL)                               0.06       9.98 r
+  U2/D3/FDE4/P1 (FDE_4)                                   0.00       9.98 r
+  U2/D3/FDE5/I (FDE_3)                                    0.00       9.98 r
+  U2/D3/FDE5/A0/Y (NAND2XL)                               0.08      10.06 f
+  U2/D3/FDE5/P1 (FDE_3)                                   0.00      10.06 f
+  U2/D3/FDE6/I (FDE_2)                                    0.00      10.06 f
+  U2/D3/FDE6/A0/Y (NAND2XL)                               0.06      10.12 r
+  U2/D3/FDE6/P1 (FDE_2)                                   0.00      10.12 r
+  U2/D3/FDE7/I (FDE_1)                                    0.00      10.12 r
+  U2/D3/FDE7/A0/Y (NAND2XL)                               0.07      10.19 f
+  U2/D3/FDE7/P1 (FDE_1)                                   0.00      10.19 f
+  U2/D3/FDE8/I (FDE_0)                                    0.00      10.19 f
+  U2/D3/FDE8/A0/Y (NAND2XL)                               0.05      10.24 r
+  U2/D3/FDE8/P1 (FDE_0)                                   0.00      10.24 r
+  U2/D3/FDE8/P2 (FDE_0)                                   0.00      10.24 r
+  U2/D3/FDE8/A3/Y (NAND2XL)                               0.05      10.29 f
+  U2/D3/FDE8/O (FDE_0)                                    0.00      10.29 f
+  U2/D3/FDE7/P2 (FDE_1)                                   0.00      10.29 f
+  U2/D3/FDE7/A3/Y (NAND2XL)                               0.04      10.33 r
+  U2/D3/FDE7/O (FDE_1)                                    0.00      10.33 r
+  U2/D3/FDE6/P2 (FDE_2)                                   0.00      10.33 r
+  U2/D3/FDE6/A3/Y (NAND2XL)                               0.05      10.38 f
+  U2/D3/FDE6/O (FDE_2)                                    0.00      10.38 f
+  U2/D3/FDE5/P2 (FDE_3)                                   0.00      10.38 f
+  U2/D3/FDE5/A3/Y (NAND2XL)                               0.04      10.43 r
+  U2/D3/FDE5/O (FDE_3)                                    0.00      10.43 r
+  U2/D3/FDE4/P2 (FDE_4)                                   0.00      10.43 r
+  U2/D3/FDE4/A3/Y (NAND2XL)                               0.05      10.48 f
+  U2/D3/FDE4/O (FDE_4)                                    0.00      10.48 f
+  U2/D3/FDE3/P2 (FDE_5)                                   0.00      10.48 f
+  U2/D3/FDE3/A3/Y (NAND2XL)                               0.04      10.52 r
+  U2/D3/FDE3/O (FDE_5)                                    0.00      10.52 r
+  U2/D3/FDE2/P2 (FDE_6)                                   0.00      10.52 r
+  U2/D3/FDE2/A3/Y (NAND2XL)                               0.05      10.57 f
+  U2/D3/FDE2/O (FDE_6)                                    0.00      10.57 f
+  U2/D3/FDE1/P2 (FDE_7)                                   0.00      10.57 f
+  U2/D3/FDE1/A3/Y (NAND2XL)                               0.05      10.62 r
+  U2/D3/FDE1/O (FDE_7)                                    0.00      10.62 r
+  U2/D3/clk_out (FDL_0)                                   0.00      10.62 r
+  U2/U2/Y (INVX2)                                         0.03      10.65 f
+  U2/glitch_eliminate_0__G0/Y (CLKBUFX2)                  0.06      10.71 f
+  U2/glitch_eliminate_1__G0/Y (CLKBUFX2)                  0.07      10.78 f
+  U2/glitch_eliminate_2__G0/Y (CLKBUFX2)                  0.07      10.84 f
+  U2/glitch_eliminate_3__G0/Y (CLKBUFX2)                  0.07      10.91 f
+  U2/glitch_eliminate_4__G0/Y (CLKBUFX2)                  0.07      10.98 f
+  U2/glitch_eliminate_5__G0/Y (CLKBUFX2)                  0.07      11.05 f
+  U2/glitch_eliminate_6__G0/Y (CLKBUFX2)                  0.07      11.11 f
+  U2/glitch_eliminate_7__G0/Y (CLKBUFX2)                  0.07      11.18 f
+  U2/glitch_eliminate_8__G0/Y (CLKBUFX2)                  0.07      11.25 f
+  U2/glitch_eliminate_9__G0/Y (CLKBUFX2)                  0.07      11.32 f
+  U2/glitch_eliminate_10__G0/Y (CLKBUFX2)                 0.07      11.38 f
+  U2/glitch_eliminate_11__G0/Y (CLKBUFX2)                 0.07      11.45 f
+  U2/glitch_eliminate_12__G0/Y (CLKBUFX2)                 0.07      11.52 f
+  U2/glitch_eliminate_13__G0/Y (CLKBUFX2)                 0.07      11.59 f
+  U2/glitch_eliminate_14__G0/Y (CLKBUFX2)                 0.07      11.66 f
+  U2/glitch_eliminate_15__G0/Y (CLKBUFX2)                 0.07      11.72 f
+  U2/glitch_eliminate_16__G0/Y (CLKBUFX2)                 0.07      11.79 f
+  U2/glitch_eliminate_17__G0/Y (CLKBUFX2)                 0.07      11.86 f
+  U2/glitch_eliminate_18__G0/Y (CLKBUFX2)                 0.07      11.93 f
+  U2/glitch_eliminate_19__G0/Y (CLKBUFX2)                 0.07      11.99 f
+  U2/glitch_eliminate_20__G0/Y (CLKBUFX2)                 0.07      12.06 f
+  U2/glitch_eliminate_21__G0/Y (CLKBUFX2)                 0.07      12.13 f
+  U2/glitch_eliminate_22__G0/Y (CLKBUFX2)                 0.07      12.20 f
+  U2/glitch_eliminate_23__G0/Y (CLKBUFX2)                 0.07      12.26 f
+  U2/glitch_eliminate_24__G0/Y (CLKBUFX2)                 0.07      12.33 f
+  U2/glitch_eliminate_25__G0/Y (CLKBUFX2)                 0.07      12.40 f
+  U2/glitch_eliminate_26__G0/Y (CLKBUFX2)                 0.07      12.47 f
+  U2/glitch_eliminate_27__G0/Y (CLKBUFX2)                 0.07      12.53 f
+  U2/glitch_eliminate_28__G0/Y (CLKBUFX2)                 0.07      12.60 f
+  U2/U14/Y (INVXL)                                        0.03      12.63 r
+  U2/U11/Y (NAND4BXL)                                     0.12      12.75 f
+  U2/U7/Y (NAND4BX2)                                      0.14      12.90 f
+  U2/U5/Y (NOR4BXL)                                       0.29      13.19 r
+  U2/U27/Y (NAND4BX4)                                     0.23      13.41 f
+  U2/clk_out (DCDL)                                       0.00      13.41 f
+  U1/clk_out (FMC)                                        0.00      13.41 f
+  U1/F2/clk_out (Select_Logic)                            0.00      13.41 f
+  U1/F2/U13/Y (NOR3X4)                                    0.07      13.48 r
+  U1/F2/U10/Y (INVX2)                                     0.03      13.51 f
+  U1/F2/U3/Y (OAI2BB1X1)                                  0.03      13.54 r
+  U1/F2/U4/Y (OAI2BB1X2)                                  0.08      13.63 r
+  U1/F2/Sel_tmp_reg_0_/D (TLATX4)                         0.00      13.63 r
+  data arrival time                                                 13.63
+
+  clock clk_ext' (rise edge)                              2.50       2.50
+  clock network delay (ideal)                             0.00       2.50
+  U1/F2/Sel_tmp_reg_0_/G (TLATX4)                         0.00       2.50 r
+  time borrowed from endpoint                             2.12       4.62
+  data required time                                                 4.62
+  --------------------------------------------------------------------------
+  data required time                                                 4.62
+  data arrival time                                                -13.63
+  --------------------------------------------------------------------------
+  slack (VIOLATED)                                                  -9.00
+
+  Time Borrowing Information
+  --------------------------------------------------------------
+  clk_ext' nominal pulse width                            2.50   
+  library setup time                                     -0.01   
+  --------------------------------------------------------------
+  max time borrow                                         2.49   
+  actual time borrow                                      2.12   
+  --------------------------------------------------------------
+
+
+1
+Loading db file '/usr/cadtool/ee5216/CBDK_TSMC90GUTM_Arm_f1.0/CIC/SynopsysDC/db/slow.db'
+Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
+Warning: Design has unannotated primary inputs. (PWR-414)
+Warning: Design has unannotated sequential cell outputs. (PWR-415)
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : FMDLL
+Version: R-2020.09-SP5
+Date   : Tue May  7 09:55:01 2024
+****************************************
+
+
+Library(s) Used:
+
+    slow (File: /usr/cadtool/ee5216/CBDK_TSMC90GUTM_Arm_f1.0/CIC/SynopsysDC/db/slow.db)
+
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+
+Global Operating Voltage = 0.9  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000pf
+    Time Units = 1ns
+    Dynamic Power Units = 1mW    (derived from V,C,T units)
+    Leakage Power Units = 1pW
+
+
+  Cell Internal Power  = 169.3986 uW   (70%)
+  Net Switching Power  =  72.6906 uW   (30%)
+                         ---------
+Total Dynamic Power    = 242.0892 uW  (100%)
+
+Cell Leakage Power     =  10.0449 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network      0.1260        6.4099e-02        4.2630e+06            0.1944  (  77.10%)
+register       3.2088e-02        2.7545e-03        1.7948e+06        3.6637e-02  (  14.53%)
+sequential     3.5905e-03        5.2492e-05        6.1415e+05        4.2572e-03  (   1.69%)
+combinational  7.6848e-03        5.7848e-03        3.3729e+06        1.6842e-02  (   6.68%)
+--------------------------------------------------------------------------------------------------
+Total              0.1694 mW     7.2691e-02 mW     1.0045e+07 pW         0.2521 mW
+1
